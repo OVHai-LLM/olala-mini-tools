@@ -15,7 +15,11 @@ Each example works in French and in English.
 
 ## Run it
 
-You need Python 3.10 or later and an OpenAI-compatible endpoint that serves Olala 1.0 mini (vLLM, llama-server, LM Studio, Ollama…).
+You need Python 3.10 or later and an OpenAI-compatible endpoint that serves Olala 1.0 mini: `llama-server` from the
+[llama.cpp fork](https://github.com/OVHai-LLM/llama.cpp/tree/olala-master) (GGUF files), the
+[vLLM fork](https://github.com/OVHai-LLM/vllm) (NVIDIA GPU) or the [mlx-engine](https://github.com/OVHai-LLM/mlx-engine)
+server (Mac). See the [model card](https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B) for the commands.
+Upstream llama.cpp, vLLM, LM Studio and Ollama cannot load the `olala` architecture yet.
 
 ```bash
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
