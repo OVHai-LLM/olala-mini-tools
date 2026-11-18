@@ -16,7 +16,7 @@ Chaque exemple fonctionne en français et en anglais.
 ## Le lancer
 
 Il faut Python 3.10 ou plus et un endpoint compatible OpenAI qui sert Olala 1.0 mini : `llama-server` du
-[fork llama.cpp](https://github.com/OVHai-LLM/llama.cpp) (fichiers GGUF), le
+[fork llama.cpp](https://github.com/OVHai-LLM/llama.cpp/tree/olala-master) (fichiers GGUF), le
 [fork vLLM](https://github.com/OVHai-LLM/vllm) (GPU NVIDIA) ou le serveur [mlx-engine](https://github.com/OVHai-LLM/mlx-engine)
 (Mac). Les commandes sont dans la [fiche du modèle](https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B).
 llama.cpp, vLLM, LM Studio et Ollama officiels ne chargent pas encore l'architecture `olala`.
